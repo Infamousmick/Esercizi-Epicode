@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../style/style.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../esercizio1/index.html">Presentazione</a></li>
+            <li><a href="">Form</a></li>
+        </ul>
+    </nav>
+
+</body>
+<h1>Form</h1>
+<form onsubmit="alert('Registrazione inviata!')">
+    <div class="form-field">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Inserisci Nome" required>
+    </div>
+    <div class="form-field">
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" name="cognome" placeholder="Inserisci Cognome" required>
+    </div>
+    <div class="form-field">
+        <label for="email">Email:</label>
+        <input type="email" id="meail" name="email" placeholder="Inserisci email" required>
+    </div>
+    <div class="form-field">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Inserisci Password">
+    </div>
+    <div class="form-field">
+        <label for="data-nascita">Data di Nascita:</label>
+        <input type="date" id="data-nascita" name="data-nascita">
+    </div>
+    <div class="form-field">
+        <label form="phonenumber">Numero di telefono:</label>
+        <input type="number" id="phonenumber" name="phonenumber" placeholder="Inserisci numero" required>
+    </div>
+    <label for="gustimusicali">Gusti musicali:</label>
+    <div class="form-field" id="gustimusicali">
+        <input type="checkbox" id="rock" name="rock">
+        <label for="rock">Rock</label>
+        <input type="checkbox" id="metal" name="metal">
+        <label for="metal">Metal</label>
+        <input type="checkbox" id="pop" name="pop">
+        <label for="pop">Pop</label>
+        <input type="checkbox" id="jazz" name="jazz">
+        <label for="jazz">Jazz</label>
+    </div>
+    <label for="termini">Accetto termini e condizioni</label>
+    <div class="form-field" id="termini">
+        <input type="radio" id="accetto" name="accept" value="accetto" checked>
+        <label for="accetto">Accetto</label>
+        <input type="radio" id="rifiuto" name="accept" value="rifiuto">
+        <label for="rifiuto">Rifiuto</label>
+    </div>
+    <button type="submit" id="send">Invia registrazione</button>
+</form>
+
+</html>
