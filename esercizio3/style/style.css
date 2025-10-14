@@ -1,0 +1,82 @@
+/*
+Applica alla lista non ordinata uno stile in modo da rimuovere i punti a sinistra e il padding di default
+Inserisci ogni elemento della lista in un link. Usa come indirizzo qualcosa come “./nome-del-luogo.html”
+Fai in modo che ogni elemento della lista abbia un padding top e bottom di 6px, 22px di padding-left, un bordo inferiore di 1px di questo colore: #dfdfdf
+Rimuovi la sottolineatura dagli elementi contenuti nella lista e cambia il colore di quelli utilizzati con il primo dei due colori utilizzati per il gradiente
+Ora duplica la pagina index.html tutte le volte che vuoi e fornisci a ogni copia lo stesso nome che hai utilizzato nei link (es. “./nome-del-luogo.html”)
+Aggiorna le informazioni del testo, l’immagine, l’autore, il gradiente di sfondo per l’h6 e il colore dei link visitati in in ogni pagina in modo da rispecchiare il nuovo luogo
+Aggiungi un footer al di fuori della sezione principale, coloralo in nero e accertati che il colore del testo sia bianco. Aggiungi 16px per il padding (se hai fatto tutto correttamente dovrebbe comparire attaccato ai bordi sinistro, inferiore e destro).
+Aggiungi un link per l’homepage “./index.html” e centralo
+Ora dovresti essere in grado di navigare attraverso tutte le pagine utilizzando i link e ritornare all’homepage */
+
+
+h1.title {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    text-align:center;
+    text-border: black;
+    color: #e6f6ffff;               
+    background: linear-gradient(32deg,rgba(189, 238, 255, 1) 0%, rgba(0, 136, 140, 1) 69%, rgba(255, 60, 54, 1) 100%);
+}
+h1.title:hover{
+    color: rgba(171, 229, 254, 1)
+}
+h1.paesaggio{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-size: 64px;
+    font-weight: 400;
+    font-style: italic;
+}
+body {
+    margin: 0;
+    font: Montserrat;
+}
+
+.main-section{
+    padding: 20px;
+}
+
+.image-container{
+    height:500px;
+    background-image: url(https://www.jal.co.jp/it/it/guide-to-japan/experiences/cherry-blossom/cherry-blossom-season/index/_jcr_content/root/responsivegrid/sectioncontainer_cop/image_934184779.coreimg.jpeg/1688541749639.jpeg);
+}
+h3{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top:0;
+    font-style: italic;
+}
+
+h1,h3{
+    margin-bottom:0;
+}
+a{
+    weight:600;
+    font-style:italic;
+}
+
+h6{
+    padding: 22px;
+    margin-bottom:0px;
+    margin-top:56px;
+    color: white;
+    border-radius:6px;
+   background: linear-gradient(180deg,rgba(135, 225, 255, 1) 0%, rgba(252, 232, 255, 1) 100%);
+}
+
+nav ul.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    list-style: none;
+    gap: 10px;
+    padding: 15px;
+    padding-left:105px;
+
+}
