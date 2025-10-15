@@ -89,7 +89,7 @@ li {
 ul li a {
     text-decoration: none;
 }
-ul:not(.nav) li {
+ul:not(.nav,.homepage) li {
     border-bottom: 1px dashed #dfdfdf
 }
 
@@ -167,5 +167,21 @@ footer {
   background-color: black;
   color: white;
   padding: 16px;
+}
 
+ul.homepage{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+ul.homepage li a{
+    color: #fb3b2dff;
+    font-family: "Playwrite DE SAS", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul.homepage li a:hover{
+    color: #5d8be8ff;
 }
