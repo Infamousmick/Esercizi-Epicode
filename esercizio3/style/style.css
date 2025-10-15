@@ -1,9 +1,4 @@
 /*
-Applica alla lista non ordinata uno stile in modo da rimuovere i punti a sinistra e il padding di default
-Inserisci ogni elemento della lista in un link. Usa come indirizzo qualcosa come “./nome-del-luogo.html”
-Fai in modo che ogni elemento della lista abbia un padding top e bottom di 6px, 22px di padding-left, un bordo inferiore di 1px di questo colore: #dfdfdf
-Rimuovi la sottolineatura dagli elementi contenuti nella lista e cambia il colore di quelli utilizzati con il primo dei due colori utilizzati per il gradiente
-Ora duplica la pagina index.html tutte le volte che vuoi e fornisci a ogni copia lo stesso nome che hai utilizzato nei link (es. “./nome-del-luogo.html”)
 Aggiorna le informazioni del testo, l’immagine, l’autore, il gradiente di sfondo per l’h6 e il colore dei link visitati in in ogni pagina in modo da rispecchiare il nuovo luogo
 Aggiungi un footer al di fuori della sezione principale, coloralo in nero e accertati che il colore del testo sia bianco. Aggiungi 16px per il padding (se hai fatto tutto correttamente dovrebbe comparire attaccato ai bordi sinistro, inferiore e destro).
 Aggiungi un link per l’homepage “./index.html” e centralo
@@ -42,6 +37,8 @@ body {
 .image-container{
     height:500px;
     background-image: url(https://www.jal.co.jp/it/it/guide-to-japan/experiences/cherry-blossom/cherry-blossom-season/index/_jcr_content/root/responsivegrid/sectioncontainer_cop/image_934184779.coreimg.jpeg/1688541749639.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 h3{
     font-family: "Lora", serif;
@@ -79,4 +76,20 @@ nav ul.nav {
     padding: 15px;
     padding-left:105px;
 
+}
+
+.list{
+    padding:0px;
+    list-style:none;
+}
+.list li {
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:22px;
+    border-bottom: 1px dashed #dfdfdf
+}
+
+li a {
+    text-decoration: none;
+    color:rgba(135, 225, 255, 1);
 }
