@@ -1,9 +1,8 @@
-/*
-Aggiorna le informazioni del testo, l’immagine, l’autore, il gradiente di sfondo per l’h6 e il colore dei link visitati in in ogni pagina in modo da rispecchiare il nuovo luogo
-Aggiungi un footer al di fuori della sezione principale, coloralo in nero e accertati che il colore del testo sia bianco. Aggiungi 16px per il padding (se hai fatto tutto correttamente dovrebbe comparire attaccato ai bordi sinistro, inferiore e destro).
-Aggiungi un link per l’homepage “./index.html” e centralo
-Ora dovresti essere in grado di navigare attraverso tutte le pagine utilizzando i link e ritornare all’homepage */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS&display=swap');
 
+.title-container {
+  text-align: center;
+}
 
 h1.title {
     font-family: "Lora", serif;
@@ -12,6 +11,9 @@ h1.title {
     font-style: italic;
     text-align:center;
     text-border: black;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 10px 25px;
     color: #e6f6ffff;               
     background: linear-gradient(32deg,rgba(189, 238, 255, 1) 0%, rgba(0, 136, 140, 1) 69%, rgba(255, 60, 54, 1) 100%);
 }
@@ -66,15 +68,13 @@ h6{
 }
 
 nav ul.nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    list-style: none;
-    gap: 10px;
-    padding: 15px;
-    padding-left:105px;
-
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-family: "Playwrite DE SAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 ul{
@@ -94,12 +94,12 @@ ul:not(.nav) li {
 }
 
 h6.tokyo {    
-   background: linear-gradient(180deg,rgba(135, 225, 255, 1) 0%, rgba(252, 232, 255, 1) 100%);
+   background: linear-gradient(180deg,rgba(2, 148, 234, 1) 30%, rgba(215, 176, 188, 1) 75%);
 }
 
 
 ul.tokyo li a {
-    color:rgba(135, 225, 255, 1);
+    color:rgba(2, 148, 234, 1);
 }
 
 #tokyo {
@@ -107,10 +107,10 @@ ul.tokyo li a {
 }
 
 h6.mishima {    
-   background: linear-gradient(180deg,rgba(6, 149, 196, 1) 38%, rgba(6, 191, 30, 1) 100%);
+   background: linear-gradient(180deg,rgba(10, 69, 253, 1) 12%, rgba(122, 236, 252, 1) 60%, rgba(99, 183, 33, 1) 87%);
 }
 ul.mishima li a {
-    color:rgba(6, 149, 196, 1);
+    color:rgba(10, 69, 253, 1);
 }
 
 #mishima {
@@ -118,10 +118,10 @@ ul.mishima li a {
 }
 
 h6.hakone {  
-    background: linear-gradient(180deg,rgba(235, 110, 56, 1) 27%, rgba(239, 252, 88, 1) 58%, rgba(254, 222, 255, 1) 74%);
+    background: linear-gradient(180deg,rgba(157, 70, 4, 1) 9%, rgba(238, 194, 13, 1) 38%, rgba(211, 217, 228, 1) 70%, rgba(0, 157, 238, 1) 94%);;
 }
 ul.hakone li a {
-    color: rgba(235, 110, 56, 1);
+    color: #9d4604;
 }
 
 #hakone {
@@ -129,10 +129,10 @@ ul.hakone li a {
 }
 
 h6.kawaguchiko {  
-    background: linear-gradient(180deg,rgba(255, 120, 242, 1) 36%, rgba(52, 121, 186, 1) 74%);
+    background: linear-gradient(180deg,rgba(250, 181, 173, 1) 12%, rgba(69, 134, 178, 1) 58%, rgba(5, 63, 103, 1) 94%);;
 }
 ul.kawaguchiko li a {
-    color:rgba(255, 120, 242, 1);
+    color:#fab5ad;
 }
 
 #kawaguchiko {
@@ -140,12 +140,32 @@ ul.kawaguchiko li a {
 }
 
 h6.hakkai {  
-    background: linear-gradient(180deg,rgba(212, 122, 49, 1) 23%, rgba(45, 204, 53, 1) 52%, rgba(37, 179, 164, 1) 70%, rgba(10, 103, 191, 1) 83%);
+    background: linear-gradient(180deg,rgba(173, 197, 40, 1) 28%, rgba(238, 129, 35, 1) 48%, rgba(19, 85, 121, 1) 94%);;
 }
 ul.hakkai li a {
-    color:rgba(212, 122, 49, 1);
+    color:#adc528;
 }
 
 #hakkai {
     background-image: url(https://cdn-imgix.headout.com/media/images/0e871ab6-1de0-428a-95e7-ecd39f8a2d2f-1747914061639-277419.jpg?auto=format&q=90&crop=faces&fit=crop);
+}
+
+h6.saiko {  
+    background: linear-gradient(180deg,rgba(180, 150, 156, 1) 22%, rgba(77, 138, 179, 1) 69%, rgba(231, 233, 238, 1) 83%);
+;
+}
+
+ul.saiko li a {
+    color:rgba(180, 150, 156, 1);
+}
+
+#saiko {
+    background-image: url(https://japantravelsights.com/wp-content/uploads/2024/07/image-32-1024x619.png);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 16px;
+
 }
