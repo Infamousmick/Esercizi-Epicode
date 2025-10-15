@@ -34,11 +34,11 @@ body {
     padding: 20px;
 }
 
-.image-container{
+.img-container{
     height:500px;
-    background-image: url(https://www.jal.co.jp/it/it/guide-to-japan/experiences/cherry-blossom/cherry-blossom-season/index/_jcr_content/root/responsivegrid/sectioncontainer_cop/image_934184779.coreimg.jpeg/1688541749639.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 h3{
     font-family: "Lora", serif;
@@ -53,7 +53,7 @@ h1,h3{
     margin-bottom:0;
 }
 a{
-    weight:600;
+    font-weight:600;
     font-style:italic;
 }
 
@@ -63,7 +63,6 @@ h6{
     margin-top:56px;
     color: white;
     border-radius:6px;
-   background: linear-gradient(180deg,rgba(135, 225, 255, 1) 0%, rgba(252, 232, 255, 1) 100%);
 }
 
 nav ul.nav {
@@ -78,18 +77,75 @@ nav ul.nav {
 
 }
 
-.list{
+ul{
     padding:0px;
     list-style:none;
 }
-.list li {
+li {
     padding-top:6px;
     padding-bottom:6px;
     padding-left:22px;
+}
+ul li a {
+    text-decoration: none;
+}
+ul:not(.nav) li {
     border-bottom: 1px dashed #dfdfdf
 }
 
-li a {
-    text-decoration: none;
+h6.tokyo {    
+   background: linear-gradient(180deg,rgba(135, 225, 255, 1) 0%, rgba(252, 232, 255, 1) 100%);
+}
+
+
+ul.tokyo li a {
     color:rgba(135, 225, 255, 1);
+}
+
+#tokyo {
+    background-image: url(https://www.jal.co.jp/it/it/guide-to-japan/experiences/cherry-blossom/cherry-blossom-season/index/_jcr_content/root/responsivegrid/sectioncontainer_cop/image_934184779.coreimg.jpeg/1688541749639.jpeg);
+}
+
+h6.mishima {    
+   background: linear-gradient(180deg,rgba(6, 149, 196, 1) 38%, rgba(6, 191, 30, 1) 100%);
+}
+ul.mishima li a {
+    color:rgba(6, 149, 196, 1);
+}
+
+#mishima {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mishima_sky_walk.jpg/1200px-Mishima_sky_walk.jpg?20161026074048);
+}
+
+h6.hakone {  
+    background: linear-gradient(180deg,rgba(235, 110, 56, 1) 27%, rgba(239, 252, 88, 1) 58%, rgba(254, 222, 255, 1) 74%);
+}
+ul.hakone li a {
+    color: rgba(235, 110, 56, 1);
+}
+
+#hakone {
+    background-image: url(https://res.klook.com/image/upload/fl_lossy.progressive,w_432,h_288,c_fill,q_85/activities/n3jbtgt5okr5g5ban1ls.jpg);
+}
+
+h6.kawaguchiko {  
+    background: linear-gradient(180deg,rgba(255, 120, 242, 1) 36%, rgba(52, 121, 186, 1) 74%);
+}
+ul.kawaguchiko li a {
+    color:rgba(255, 120, 242, 1);
+}
+
+#kawaguchiko {
+    background-image: url(https://static.vecteezy.com/ti/foto-gratuito/p2/30608641-mt-fuji-a-lago-kawaguchiko-nel-giappone-a-tramonto-bellissimo-panoramico-paesaggio-di-montagna-fuji-o-fujisan-con-riflessione-su-shoji-lago-a-alba-con-crepuscolo-cielo-giappone-ai-generato-gratuito-foto.jpg);
+}
+
+h6.hakkai {  
+    background: linear-gradient(180deg,rgba(212, 122, 49, 1) 23%, rgba(45, 204, 53, 1) 52%, rgba(37, 179, 164, 1) 70%, rgba(10, 103, 191, 1) 83%);
+}
+ul.hakkai li a {
+    color:rgba(212, 122, 49, 1);
+}
+
+#hakkai {
+    background-image: url(https://cdn-imgix.headout.com/media/images/0e871ab6-1de0-428a-95e7-ecd39f8a2d2f-1747914061639-277419.jpg?auto=format&q=90&crop=faces&fit=crop);
 }
