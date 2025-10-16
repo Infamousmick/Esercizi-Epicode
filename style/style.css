@@ -47,15 +47,12 @@ input {
     background-color: rgba(3, 168, 149, 0.304);
 }
 
-label[for="gustimusicali"] {
+label[for="gustimusicali"],
+    label[for="termini"]  {
     color: rgba(236, 78, 78, 0.803);
     font-weight: bold;
 }
 
-label[for="termini"] {
-    color: rgba(236, 78, 78, 0.803);
-    font-weight: bold;
-}
 
 input[type="checkbox"]+label {
     position: relative;
