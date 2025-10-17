@@ -1,31 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS&display=swap");
 .title-container {
   text-align: center;
 }
 
 h1 {
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: italic;
-    text-align:center;
-    text-border: black;
-    display: inline-block;
-    border-radius: 25px;
-    padding: 10px 25px;
-    color: #e6f6ffff;               
-    background: linear-gradient(32deg,rgba(189, 238, 255, 1) 0%, rgba(0, 136, 140, 1) 69%, rgba(255, 60, 54, 1) 100%);
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  text-border: black;
+  display: inline-block;
+  border-radius: 25px;
+  padding: 10px 25px;
+  color: #e6f6ffff;
+  background: linear-gradient(
+    32deg,
+    rgba(189, 238, 255, 1) 0%,
+    rgba(0, 136, 140, 1) 69%,
+    rgba(255, 60, 54, 1) 100%
+  );
 }
-h1:hover{
-    color: rgba(171, 229, 254, 1)
+h1:hover {
+  color: rgba(171, 229, 254, 1);
 }
 table td,
 table th {
-    border: 1px solid #c9c9c9;
-    padding: 12px;
-    text-align: left;
-    }
+  border: 1px solid #c9c9c9;
+  padding: 12px;
+  text-align: left;
+}
 
 nav ul {
   display: flex;
@@ -35,55 +40,54 @@ nav ul {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-      padding:0px;
-    list-style:none;
+  padding: 0px;
+  list-style: none;
 }
 .form-field {
-    color: rgba(236, 78, 78, 0.803);
-    font-weight: 700;
+  color: rgba(236, 78, 78, 0.803);
+  font-weight: 700;
 }
 
 input {
-    background-color: rgba(3, 168, 149, 0.304);
+  background-color: rgba(3, 168, 149, 0.304);
 }
 
 label[for="gustimusicali"],
-    label[for="termini"]  {
-    color: rgba(236, 78, 78, 0.803);
-    font-weight: bold;
+label[for="termini"] {
+  color: rgba(236, 78, 78, 0.803);
+  font-weight: bold;
 }
 
-
-input[type="checkbox"]+label {
-    position: relative;
-    padding-left: 10px;
-    cursor: pointer;
-    font-size: 15px;
-    color: #333;
+input[type="checkbox"] + label {
+  position: relative;
+  padding-left: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #333;
 }
 
-input[type="radio"]+label {
-    position: relative;
-    padding-left: 10px;
-    cursor: pointer;
-    font-size: 15px;
-    color: #333;
+input[type="radio"] + label {
+  position: relative;
+  padding-left: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #333;
 }
 
 button {
-    background-color: #b779ff;
-    color: white;
-    padding: 10px 15px;
-    font-size: 12px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  background-color: #b779ff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-    button:hover {
-    background-color:  #9539fe;
+button:hover {
+  background-color: #9539fe;
 }
-input:not([type="checkbox"],[type="radio"]){
-    display:block;
+input:not([type="checkbox"], [type="radio"]) {
+  display: block;
 }
