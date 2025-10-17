@@ -166,3 +166,23 @@ body {
 .btn:hover {
   color: #ffffffff;
 }
+
+.thumbnail {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.details {
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.card {
+  box-shadow: 4px 4px 10px grey;
+  border-radius: 20px;
+}
+
+.card:hover {
+  scale: 1.03;
+  animation: load89234 2s infinite;
+}
